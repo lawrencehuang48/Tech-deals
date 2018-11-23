@@ -1,0 +1,169 @@
+.AddButton {
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  width: 25%;
+  background-color: white;
+}
+
+.AddButton:hover { 
+  background-color: Black;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 60px;
+}
+
+.App-header {
+  height: 135px;
+  padding-top: 15px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  padding-top: 20px;
+}
+
+.CenterButtons{
+  justify-content: center
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.Shape {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #bfbfbf;
+  padding-bottom:  20px;
+  width: 500px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+.EditIcon {
+  padding-left: 20px;
+}
+
+.formDisplay {
+  padding: 10px 10px 10px 10px;
+}
+
+.Icon {
+  font-size: 1.5em;
+  margin-right: 2px;
+}
+
+.IconPosition{
+  float: right;
+}
+
+.ImagePosition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoadingIcon {
+  animation: App-logo-spin infinite 2000ms linear;
+}
+
+.product-wrapper {
+  padding-top:20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.product-head {
+  float:left;
+}
+
+.product-heading {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  font-weight: normal;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.product-links {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  font-weight: normal;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.product-img {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+}
+
+.product-img img {
+  max-height: calc(100vh - 220px);
+  width: 100%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.SearchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button{
+  border: 1px solid #bfbfbf;
+  margin-left: 5px;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  width: 100px;
+}
+
+.search-button:hover {
+  background-color: Black;
+  color: white;
+}
+
+.mic-button {
+  margin-left: 5px;
+}
+
+.product-list {
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
